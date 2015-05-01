@@ -1,0 +1,14 @@
+PARASITOLOGY PRICES 
+
+Fur Pluck (BCM): $ 6.76
+Fur pluck (non-BCM): $ 8.45
+Fur Pluck (non-academic): $ 10.14
+
+Pinworm test (BCM): $ 6.18
+Pinworm test (non-BCM): $ 7.72
+Pinworm test (non-academic): $ 9.27
+
+Fecal float and parasite exam (BCM): $ 18.67
+Fecal float and parasite exam (non-BCM): $ 23.33
+Fecal float and parasite exam (non-academic): $ 28.00
+
