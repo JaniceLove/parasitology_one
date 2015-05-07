@@ -18,9 +18,18 @@ double techTime()
  	return time; 
 } 
 
-double microscope ()
+double lightScope ()
 {
-	double price = 18490.95;
+	double price = 15568.00; //asset listing
+	int weeklySamples = no_samples * 5;
+	int samples_yearly = weeklySamples * 52;
+	double per_sample = depreciation/ samples_yearly;
+	return per_sample;
+}
+
+double dissectScope ()
+{
+	double price = 6019.00;//asset listing
 	int weeklySamples = no_samples * 5;
 	int samples_yearly = weeklySamples * 52;
 	double per_sample = depreciation/ samples_yearly;

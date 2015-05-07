@@ -2,6 +2,7 @@
 parasitology samples. 
 Author: Janice Love
 Date: 5-1-2015 
+Update: 5-7-2015
 */
 
 #include <string>
@@ -21,7 +22,8 @@ int main ()
 
 	myFile << fixed << setprecision(2);
 
-	double scope = microscope ();
+	double scope = lightScope ();
+	double dScope = dissectScope ();
 	double c = centrifuge ();
 	double tubes = eppendorfTubes ();
 	double oil = mineralOil ();
@@ -36,18 +38,18 @@ int main ()
 	double gloves = glovesUsed ();
 
 	//pinworm slides
-	double pinwormBCM = scope + labor + al + t + gloves; 
+	double pinwormBCM = dScope + labor + al + t + gloves; 
 	double pinworm_nonBCM = costNONBCM (pinwormBCM);
 	double pinworm_OUT = costOUTSIDE (pinwormBCM);
 
 	//fur pluck
-	double furBCM = labor + scope + tubes + (oil * 2) 
+	double furBCM = labor + dScope + tubes + (oil * 2) 
 		+ apps + (0.25 * p) + (t* 3) + al + gloves; 
 	double fur_nonBCM = costNONBCM (furBCM);
 	double fur_OUT = costOUTSIDE (furBCM);
 
 	//fecal float
-	double ffloatBCM = (labor * 3) + scope + tubes + 
+	double ffloatBCM = (labor * 2) + scope + tubes + 
 		fecasol + (apps * 2) + microSS + (t * 6) + 
 		(gloves * 3);
 	double ffloat_nonBCM = costNONBCM (ffloatBCM);

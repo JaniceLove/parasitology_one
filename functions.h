@@ -1,7 +1,9 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-double microscope ();
+
+double lightScope ();
+double dissectScope ();
 double centrifuge ();
 double eppendorfTubes ();
 double mineralOil ();
